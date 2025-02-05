@@ -4,8 +4,9 @@
   "description": "Job portal application",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon BackEnd/index.js",
+    "build": "npm install && npm install --prefix fr-en && npm run build --prefix fr-en",
+    "start": "nodemon BackEnd/index.js"
   },
   "author": "",
   "license": "ISC",
