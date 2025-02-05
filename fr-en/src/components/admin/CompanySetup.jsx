@@ -9,7 +9,7 @@ import { useSelector } from "react-redux";
 import Navbar from "../Navbar";
 import { COMPANY_API_END_POINT } from "../../utils/constant";
 import { toast } from "react-toastify";
-import useGetCompanyById from "../../hooks/useGetcompanyById";
+import useGetCompanyById from "../../hooks/useGetCompanyById";
 
 const CompanySetup = () => {
   const params = useParams();
