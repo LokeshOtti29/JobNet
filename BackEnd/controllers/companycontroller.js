@@ -74,7 +74,7 @@ const getcompanybyid = async (req, res) => {
 const updatecompany = async (req, res) => {
   try {
     const { name, description, website, location } = req.body;
-    console.log(name, description, website, location);
+
     const file = req.file;
 
     //cloudinary
